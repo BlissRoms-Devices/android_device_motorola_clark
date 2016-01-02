@@ -14,5 +14,11 @@
    "repository": "TheMuppets/proprietary_vendor_motorola",
    "target_path": "vendor/motorola",
    "revision": "cm-13.0"
- }
+  },
+  {
+   "remote":"github",
+   "repository": "CyanogenMod/android_device_motorola_qcom-common",
+   "target_path": "device/motorola/qcom-common",
+   "revision": "cm-13.0
+  }
 ]
