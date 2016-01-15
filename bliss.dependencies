@@ -3,7 +3,7 @@
     "remote": "github",
     "repository": "AICP/kernel_motorola_msm8992",
     "target_path": "kernel/motorola/msm8992",
-    "branch": "mm6.0"
+    "revision": "mm6.0"
   },
   {
     "remote": "github",
@@ -21,12 +21,12 @@
     "remote": "github",
     "repository": "CyanogenMod/android_hardware_sony_thermanager",
     "target_path": "hardware/sony/thermanager",
-    "branch":      "cm-13.0"
+    "revision":      "cm-13.0"
   },
   { 
     "remote": "github",
     "repository": "CyanogenMod/android_hardware_sony_timekeep",
     "target_path": "hardware/sony/timekeep",
-    "branch":      "cm-13.0"
+    "revision":      "cm-13.0"
   }
 ]
