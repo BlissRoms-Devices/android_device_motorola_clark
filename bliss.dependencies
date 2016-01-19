@@ -28,5 +28,11 @@
     "repository": "CyanogenMod/android_hardware_sony_timekeep",
     "target_path": "hardware/sony/timekeep",
     "revision":      "cm-13.0"
-  }
+  },
+  {
+    "remote": "github",
+    "repository": "android_external_connectivity",
+    "target_path": "external/connectivity",
+    "revision":      "cm-13.0"
+  },
 ]
