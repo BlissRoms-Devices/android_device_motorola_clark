@@ -28,5 +28,11 @@
     "repository": "CyanogenMod/android_hardware_sony_timekeep",
     "target_path": "hardware/sony/timekeep",
     "revision":      "cm-13.0"
+  },
+  {
+    "remote": "github",
+    "repository": "AICP/proprietary_vendor_motorola",
+    "target_path": "vendor/moto",
+    "revision": "mm6.0"
   }
 ]
