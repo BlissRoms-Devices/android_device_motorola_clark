@@ -30,7 +30,7 @@ PRODUCT_MODEL := XT1575
 PRODUCT_MANUFACTURER := motorola
 
 $(call inherit-product, device/motorola/clark/device.mk)
-$(call inherit-product-if-exists, vendor/moto/clark/clark-vendor.mk)
+$(call inherit-product-if-exists, vendor/motorola/clark/clark-vendor.mk)
 
 PRODUCT_NAME := aosp_clark
 

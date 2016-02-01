@@ -20,4 +20,4 @@ DEVICE_PACKAGE_OVERLAYS += device/motorola/clark/overlay
 PRODUCT_NAME := bliss_clark
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := XT1575
-PRODUCT_GMS_CLIENTID_BASE := android-motorola
+PRODUCT_GMS_CLIENTID_BASE := android-moto
