@@ -32,7 +32,7 @@
   {
     "remote": "github",
     "repository": "AICP/proprietary_vendor_motorola",
-    "target_path": "vendor/moto",
+    "target_path": "vendor/motorola",
     "revision": "mm6.0"
   }
 ]
