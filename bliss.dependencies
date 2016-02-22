@@ -13,7 +13,7 @@
   },
   {
     "remote": "github",
-    "repository": "BlissRoms/android_device_qcom_common",
+    "repository": "BlissRoms/platform_device_qcom_common",
     "target_path": "device/qcom/common",
     "revision": "mm6.0"
   },
