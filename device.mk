@@ -103,6 +103,18 @@ PRODUCT_PACKAGES += \
     NfcNci \
     Tag
 
+# GPS
+PRODUCT_PACKAGES += \
+    gps.msm8992 \
+    flp.conf \
+    gps.conf \
+    izat.conf \
+    lowi.conf \
+    msap.conf \
+    quipc.conf \
+    sap.conf \
+    xtwifi.conf
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     $(LOCAL_PATH)/nfc/libnfc-brcm-20795a20.conf:system/etc/libnfc-brcm-20795a20.conf
@@ -223,13 +235,6 @@ PRODUCT_PACKAGES += \
     wpa_supplicant.conf \
     wpa_supplicant_overlay.conf \
     p2p_supplicant_overlay.conf
-
-PRODUCT_PACKAGES += \
-    flp.conf \
-    gps.conf \
-    izat.conf \
-    quipc.conf \
-    sap.conf
 
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
