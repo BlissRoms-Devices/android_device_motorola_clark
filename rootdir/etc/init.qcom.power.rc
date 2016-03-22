@@ -169,5 +169,8 @@ on enable-low-power
     # Restore CPU 4 max freq from msm_performance
     write /sys/module/msm_performance/parameters/cpu_max_freq "4:4294967295 5:4294967295"
 
+    # don't run as a service to avoid race conditions
+    exec - root system -- /system/bin/init.clark.power.sh
+
 on property:sys.boot_completed=1
     trigger enable-low-power
